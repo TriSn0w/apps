@@ -1,0 +1,18 @@
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+  "manifest_version": 2,
+
+  "name": "Triscord APPS",
+  "description": "Helps the apps load if they arent loading",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
